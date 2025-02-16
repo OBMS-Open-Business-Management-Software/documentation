@@ -13,6 +13,10 @@ theme:
   icon:
     repo: fontawesome/brands/github
 copyright: "© 2025 OBMS (Open Business Management Software). All rights reserved."
+plugins:
+  - search
+  - macros:
+      macros_file: "mkdocs_macros.py"
 extra:
   generator: false
   social:

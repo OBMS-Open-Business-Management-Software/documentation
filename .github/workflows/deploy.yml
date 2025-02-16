@@ -26,7 +26,8 @@ jobs:
       - name: Install MkDocs and dependencies
         run: |
           pip install mkdocs
-          pip install mkdocs-material  # Optional theme
+          pip install mkdocs-material
+          pip install mkdocs-macros-plugin
 
       - name: Build and Deploy MkDocs
         run: mkdocs gh-deploy --force --remote-name origin
