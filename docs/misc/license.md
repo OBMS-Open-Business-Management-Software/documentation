@@ -21,7 +21,7 @@ You may use the Licensed Work in production as long as your Total Finances do no
 
 - **Total Finances** means the largest of your aggregate gross revenues, entire budget, and/or funding (no matter the source).
 - **You** and **Your** includes, without limitation, any individual or entity agreeing to these terms and any affiliates of such individual or entity.
-- **we** means the IPvX UG (haftungsbeschränkt) and all of its subsidiaries.
+- **We** means the IPvX UG (haftungsbeschränkt) and all of its subsidiaries.
 - **Production** means any use other than:
     - Development of (including evaluation of the Licensed Work), debugging, or testing your offerings.
     - Making the Licensed Work available standalone in unmodified object code form.
