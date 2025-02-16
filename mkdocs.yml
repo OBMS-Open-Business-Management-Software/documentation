@@ -1,2 +1,23 @@
 site_name: OBMS Documentation
 site_url: "https://docs.getobms.com"
+nav:
+  - Getting Started:
+    - Introduction: getting-started/intro.md
+    - Prerequisites: getting-started/prerequisites.md
+    - Installation: getting-started/installation.md
+    - Parameterization: getting-started/parameterization.md
+  - Modules: modules.md
+  - User Guide:
+    - Introduction: user_guide/intro.md
+  - Admin Guide:
+    - Introduction: admin_guide/intro.md
+    - REST API: admin_guide/api.md
+    - OAUTH Server: admin_guide/oauth.md
+    - WebDAV Server: admin_guide/webdav.md
+  - Developer Guide:
+    - Introduction: developer_guide/intro.md
+    - Products: developer_guide/products.md
+    - Payment Gateways: developer_guide/payment_gateways.md
+  - License: misc/license.md
+  - Changelog: misc/changelog.md
+
