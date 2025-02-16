@@ -1,4 +1,4 @@
-# License
+# Software License
 
 OBMS is licensed under the **Business Source License 1.1 (BSL 1.1)**. This license makes the source code publicly available while placing temporary restrictions on commercial use.
 

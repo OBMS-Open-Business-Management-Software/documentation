@@ -25,11 +25,11 @@ This documentation is intended for business owners, IT administrators, developer
 
 ## Key Features of OBMS
 
-- **Full ERP Functionality** – Manage financials, resource planning, and business workflows seamlessly.
-- **Digital Product Management** – Automate the creation, administration, and distribution of digital assets.
-- **Process Automation** – Reduce manual effort with intelligent workflows and task automation.
-- **User & Access Management** – Fine-grained control over roles, permissions, and security settings.
-- **Scalable & Open-Source** – Customize OBMS to fit your business needs and extend its capabilities with third-party integrations.
+- Full ERP Functionality – Manage financials, resource planning, and business workflows seamlessly.
+- Digital Product Management – Automate the creation, administration, and distribution of digital assets.
+- Process Automation – Reduce manual effort with intelligent workflows and task automation.
+- User & Access Management – Fine-grained control over roles, permissions, and security settings.
+- Scalable & Open-Source – Customize OBMS to fit your business needs and extend its capabilities with third-party integrations.
 
 ---
 
