@@ -44,6 +44,8 @@ nav:
     - Introduction: developer_guide/intro.md
     - Products: developer_guide/products.md
     - Payment Gateways: developer_guide/payment_gateways.md
-  - License: misc/license.md
+  - Licensing:
+    - Software License: misc/license.md
+    - Enterprise Agreement: misc/enterprise_agreement.md
   - Changelog: misc/changelog.md
 
