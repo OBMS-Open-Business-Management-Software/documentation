@@ -6,6 +6,8 @@ theme:
   palette:
     primary: custom
     accent: custom
+  font:
+    text: Space Grotesk
 extra_css:
   - stylesheets/extra.css
 nav:
