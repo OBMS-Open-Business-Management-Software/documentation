@@ -24,6 +24,8 @@ extra:
       link: https://github.com/OBMS-Open-Business-Management-Software/core
 extra_css:
   - stylesheets/extra.css
+extra_javascript:
+  - js/extra.js
 nav:
   - Overview: index.md
   - Getting Started:
@@ -42,10 +44,17 @@ nav:
     - WebDAV Server: admin_guide/webdav.md
   - Developer Guide:
     - Introduction: developer_guide/intro.md
-    - Products: developer_guide/products.md
-    - Payment Gateways: developer_guide/payment_gateways.md
+    - Tooling: developer_guide/tooling.md
+    - Modules:
+      - Core: developer_guide/modules/core.md
+      - Products: developer_guide/modules/products.md
+      - Payment Gateways: developer_guide/modules/payment_gateways.md
+    - Contributing: developer_guide/contributing.md
   - Licensing:
     - Software License: misc/license.md
     - Enterprise Agreement: misc/enterprise_agreement.md
   - Changelog: misc/changelog.md
+  - Legal:
+    - Imprint: https://ipvx.io/rechtliches/impressum
+    - Privacy Policy: https://ipvx.io/rechtliches/datenschutzbestimmungen
 
