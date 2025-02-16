@@ -1,5 +1,7 @@
-site_name: Documentation
+site_name: OBMS Documentation
 site_url: "https://docs.getobms.com"
+repo_url: "https://github.com/OBMS-Open-Business-Management-Software/core"
+repo_name: OBMS Core
 theme:
   name: material
   logo: assets/full.logo.svg
@@ -8,6 +10,14 @@ theme:
     accent: custom
   font:
     text: Space Grotesk
+  icon:
+    repo: fontawesome/brands/github
+copyright: "© 2025 OBMS (Open Business Management Software). All rights reserved."
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/OBMS-Open-Business-Management-Software/core
 extra_css:
   - stylesheets/extra.css
 nav:
@@ -16,12 +26,13 @@ nav:
     - Introduction: getting-started/intro.md
     - Prerequisites: getting-started/prerequisites.md
     - Installation: getting-started/installation.md
-    - Parameterization: getting-started/parameterization.md
+    - Configuration: getting-started/configuration.md
   - Modules: modules.md
   - User Guide:
     - Introduction: user_guide/intro.md
   - Admin Guide:
     - Introduction: admin_guide/intro.md
+    - User Management: admin_guide/user_management.md
     - REST API: admin_guide/api.md
     - OAUTH Server: admin_guide/oauth.md
     - WebDAV Server: admin_guide/webdav.md
