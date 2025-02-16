@@ -1,6 +1,15 @@
-site_name: OBMS Documentation
+site_name: Documentation
 site_url: "https://docs.getobms.com"
+theme:
+  name: material
+  logo: assets/full.logo.svg
+  palette:
+    primary: custom
+    accent: custom
+extra_css:
+  - stylesheets/extra.css
 nav:
+  - Overview: index.md
   - Getting Started:
     - Introduction: getting-started/intro.md
     - Prerequisites: getting-started/prerequisites.md
