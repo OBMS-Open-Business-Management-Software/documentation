@@ -12,6 +12,10 @@ theme:
     text: Space Grotesk
   icon:
     repo: fontawesome/brands/github
+  features:
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
 copyright: "© 2025 OBMS (Open Business Management Software). All rights reserved."
 plugins:
   - search
