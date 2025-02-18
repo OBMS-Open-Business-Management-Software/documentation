@@ -33,9 +33,11 @@ extra_javascript:
 nav:
   - Overview: index.md
   - Getting Started:
-    - Introduction: getting-started/intro.md
     - Prerequisites: getting-started/prerequisites.md
-    - Installation: getting-started/installation.md
+    - Installation:
+      - Bare Metal: getting-started/installation/bare_metal.md
+      - Docker: getting-started/installation/docker.md
+      - Kubernetes: getting-started/installation/kubernetes.md
     - Configuration: getting-started/configuration.md
   - Modules: modules.md
   - User Guide:
