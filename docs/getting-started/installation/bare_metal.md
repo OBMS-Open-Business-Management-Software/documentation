@@ -1,7 +1,11 @@
 # Bare-Metal Installation
 
 ## Introduction
-This method involves setting up OBMS directly on your server.
+This guide will walk you through setting up the application directly on your machine, without containerization, ensuring full control over the environment and resource allocation.
+
+Running on bare metal allows for direct hardware access, optimized performance, and customization tailored to your infrastructure needs. This method is ideal for scenarios where virtualization overhead must be minimized or when deploying on dedicated hardware.
+
+---
 
 ## Step-by-Step
 ### Clone Repository
