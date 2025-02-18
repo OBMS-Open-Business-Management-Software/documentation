@@ -65,6 +65,17 @@ Clone the GIT repository of the OBMS core application to the machine.
 git clone https://github.com/OBMS-Open-Business-Management-Software/core.git
 ```
 
+### Install Dependencies
+Install the Composer dependencies.
+```bash
+composer install
+```
+
+Install the NodeJS package dependencies.
+```bash
+npm install
+```
+
 ### Configure Environment
 Copy and modify the environment variables.
 
