@@ -1,0 +1,32 @@
+{% extends "main.html" %}
+{% block tabs %}
+  {{ super() }}
+{% endblock %}
+{% block content %}
+  <section class="hero">
+    <div class="hero-headline">
+      <h1>Transform Your Digital Business with OBMS</h1>
+    </div>
+    <div class="hero-subheadline">
+      <h2>Streamline operations, automate workflows, and manage digital products with our open-source ERP solution.</h2><br>
+      <a href="/docs/about/" class="btn">Learn More</a>
+    </div>
+  </section>
+  <section class="features">
+    <h2>Everything You'll Ever Need</h2>
+    <p>OBMS provides a solid foundation for managing digital businesses, with essential features like finance tracking, order and payment automation, as well as customer relationship tools. Built on open-source technologies, it's fully customizable, allowing you to extend or adapt it as needed. Whether you want to tweak existing functionality or add new capabilities, OBMS is flexible enough to grow with your business while offering everything you need to operate efficiently out of the box.</p>
+    <a href="/docs/getting-started/prerequisites/" class="btn">Install Now</a>
+  </section>
+  <section class="technology">
+    <h2>Build with ❤️ and Open-Source</h2>
+    <p>OBMS is powered by a range of trusted open-source technologies, ensuring stability, security, and flexibility. By leveraging tools like Laravel, Vue.js, Bootstrap, and MySQL, OBMS combines the best of the open-source community to deliver a robust, scalable platform. This approach not only provides reliability but also allows you to tap into a wide range of customizations, making it easier to tailor the system to your specific business needs.</p>
+    <div class="technology-list">
+      <img src="/assets/laravel.svg" alt="Laravel">
+      <img src="/assets/bootstrap.svg" alt="Bootstrap">
+      <img src="/assets/vuejs.svg" alt="Vue.JS">
+    </div>
+  </section>
+{% endblock %}
+{% block footer %}
+{{ super() }}
+{% endblock %}
