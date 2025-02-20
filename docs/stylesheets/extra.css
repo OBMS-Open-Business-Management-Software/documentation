@@ -99,3 +99,26 @@
 .md-header__ellipsis {
     display: none;
 }
+
+.md-social {
+    align-items: center;
+}
+
+.md-social a:hover,
+.md-social a:focus {
+    color: var(--md-footer-fg-color--light) !important;
+}
+
+.md-social a.legal-link {
+    font-size: .64rem;
+    color: var(--md-footer-fg-color--light);
+    opacity: .7;
+    transition-duration: .25s;
+    padding: 0 .25rem;
+}
+
+.md-social a.legal-link:hover,
+.md-social a.legal-link:focus {
+    color: var(--md-footer-fg-color--light) !important;
+    opacity: 1;
+}
