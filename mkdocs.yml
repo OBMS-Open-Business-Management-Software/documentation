@@ -45,7 +45,7 @@ extra:
       make our documentation better.
   analytics:
     provider: google
-    property: G-BKVN29NP9N
+    property: G-NXVCZ74CM7
     feedback:
       title: Was this page helpful?
       ratings:
