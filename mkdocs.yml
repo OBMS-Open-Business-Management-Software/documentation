@@ -80,7 +80,7 @@ nav:
     - Admin Guide:
       - Introduction: docs/admin_guide/intro.md
       - User Management: docs/admin_guide/user_management.md
-      - REST API: admin_guide/api.md
+      - REST API: docs/admin_guide/api.md
       - OAUTH Server: docs/admin_guide/oauth.md
       - WebDAV Server: docs/admin_guide/webdav.md
     - Developer Guide:
