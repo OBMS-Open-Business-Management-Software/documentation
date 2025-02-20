@@ -5,6 +5,7 @@ repo_name: OBMS Core
 theme:
   name: material
   logo: assets/full.logo.svg
+  favicon: assets/full.favicon.svg
   palette:
     primary: custom
     accent: custom
@@ -16,6 +17,9 @@ theme:
     - navigation.top
     - navigation.indexes
     - navigation.footer
+    - navigation.path
+    - content.code.copy
+  experimental: true
 copyright: "© 2025 OBMS (Open Business Management Software). All rights reserved."
 plugins:
   - search
@@ -26,12 +30,37 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/OBMS-Open-Business-Management-Software/core
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/EZPkVqpvy9
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  analytics:
+    provider: google
+    property: G-BKVN29NP9N
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback!
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
   - js/extra.js
 nav:
-  - Overview: index.md
+  - Home: index.md
   - Getting Started:
     - Prerequisites: getting-started/prerequisites.md
     - Installation:
