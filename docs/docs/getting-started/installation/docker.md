@@ -42,10 +42,15 @@ Start the docker containers.
 ./vendor/bin/sail up -d
 ```
 
-### Generate the Application Key
-Generate an application key.
+### Generate the Application Keys
+Generate an encryption key.
 ```bash
 ./vendor/bin/sail artisan key:generate
+```
+
+Generate a keypair for passport (needed for OAUTH clients to work).
+```bash
+./vendor/bin/sail artisan passport:keys
 ```
 
 ### Migrate Database

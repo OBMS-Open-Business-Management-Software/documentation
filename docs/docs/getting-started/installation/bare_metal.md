@@ -34,9 +34,15 @@ Copy and modify the environment variables. A valid database and redis cache conn
 cp .env.example .env
 ```
 
-Generate an application key.
+### Generate the Application Keys
+Generate an encryption key.
 ```bash
 php artisan key:generate
+```
+
+Generate a keypair for passport (needed for OAUTH clients to work).
+```bash
+php artisan passport:keys
 ```
 
 ### Migrate Database
