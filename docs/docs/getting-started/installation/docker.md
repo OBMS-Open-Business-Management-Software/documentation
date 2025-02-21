@@ -48,10 +48,11 @@ Generate an encryption key.
 ./vendor/bin/sail artisan key:generate
 ```
 
-Generate a keypair for passport (needed for OAUTH clients to work).
+Generate a keypair for Laravel Passport (needed for OAUTH clients to work).
 ```bash
 ./vendor/bin/sail artisan passport:keys
 ```
+> **NOTE:** The keypair for Laravel Passport can be set per instance by overriding the parameters `passport.private_key` and `passport.public_key` within the admin UI.
 
 ### Migrate Database
 Migrate the database schema.
