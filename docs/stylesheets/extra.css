@@ -10,6 +10,7 @@
     --md-footer-fg-color: #040E29;
     --md-footer-fg-color--light: #FFFFFF;
     --md-footer-bg-color--dark: #040E29;
+    --obms-box-padding: 3rem;
 }
 
 .hero {
@@ -24,11 +25,11 @@
 
 .hero-subheadline {
     background: var(--md-primary-fg-color--light);
-    padding: 3rem;
+    padding: var(--obms-box-padding);
 }
 
 .hero-headline {
-    padding: 3rem;
+    padding: var(--obms-box-padding);
 }
 
 .hero h1 {
@@ -56,7 +57,7 @@
 
 .features {
     background-color: var(--md-footer-bg-color);
-    padding: 3rem;
+    padding: var(--obms-box-padding);
     margin-bottom: 1rem;
 }
 
@@ -69,9 +70,38 @@
     margin: 0 0 2.5rem 0;
 }
 
+.features-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    gap: 1rem;
+    margin-bottom: var(--obms-box-padding);
+}
+
+.features-list i {
+    color: var(--md-accent-fg-color);
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
+.features-list-item p {
+    margin-bottom: 0;
+}
+
+.features-list-item h3 {
+    color: var(--md-primary-fg-color);
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.features-list-item {
+    background-color: var(--md-primary-fg-color--light);
+    padding: 1.5rem;
+}
+
 .technology {
     border: 1px solid var(--md-footer-bg-color);
-    padding: 3rem;
+    padding: var(--obms-box-padding);
     text-align: center;
 }
 
@@ -121,4 +151,20 @@
 .md-social a.legal-link:focus {
     color: var(--md-footer-fg-color--light) !important;
     opacity: 1;
+}
+
+@media (max-width: 959px) {
+    .features-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    :root > * {
+        --obms-box-padding: 2rem !important;
+    }
+
+    .features-list {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

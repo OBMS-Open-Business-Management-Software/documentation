@@ -61,6 +61,7 @@ extra:
             Thanks for your feedback!
 extra_css:
   - stylesheets/extra.css
+  - https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css
 extra_javascript:
   - js/extra.js
 nav:
