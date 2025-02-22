@@ -74,7 +74,8 @@ nav:
         - Bare Metal: docs/getting-started/installation/bare_metal.md
         - Docker: docs/getting-started/installation/docker.md
         - Kubernetes: docs/getting-started/installation/kubernetes.md
-      - Configuration: docs/getting-started/configuration.md
+      - Default Login: docs/getting-started/default_login.md
+      - Instance Configuration: docs/getting-started/configuration.md
     - Modules: docs/modules.md
     - User Guide:
       - Introduction: docs/user_guide/intro.md

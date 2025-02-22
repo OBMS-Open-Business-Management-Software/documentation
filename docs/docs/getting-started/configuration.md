@@ -1,2 +1,2 @@
-# Configuration
+# Instance Configuration
 
