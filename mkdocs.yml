@@ -25,7 +25,12 @@ theme:
     - content.code.copy
   experimental: true
 copyright: "© 2025 OBMS (Open Business Management Software). All rights reserved."
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
 plugins:
+  - glightbox
   - search
   - macros:
       macros_file: "mkdocs_macros.py"
@@ -66,6 +71,7 @@ extra_javascript:
   - js/extra.js
 nav:
   - Home: index.md
+  - Screenshots: screenshots.md
   - Documentation:
     - About: docs/about.md
     - Getting Started:
