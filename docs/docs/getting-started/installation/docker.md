@@ -42,7 +42,6 @@ npm install
 
 ### Configure Environment
 Copy and modify the environment variables.
-
 ```bash
 cp .env.example .env
 ```
