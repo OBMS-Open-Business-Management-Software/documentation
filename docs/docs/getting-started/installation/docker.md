@@ -7,6 +7,19 @@ Using Docker, you can easily package all dependencies and configurations into a 
 
 ---
 
+## Available Docker Images
+
+OBMS provides two public Docker images for running the application. These images are tailored for different tasks, making it easy to deploy both the core application and background processes efficiently. The `app` image is used for handling web requests, while the `worker` image is designed for background processing tasks.
+
+| Image Name  | Purpose                           |
+|-------------|-----------------------------------|
+| `ghcr.io/obms-open-business-management-software/core-app`  | The main application container, handling web requests. |
+| `ghcr.io/obms-open-business-management-software/core-worker` | The worker container for processing background jobs. |
+
+By default, the `latest` tag should be used for both the `obms-open-business-management-software/core-app` and `obms-open-business-management-software/core-worker` images to ensure you’re always using the most recent version. If you require an older version, you can access previous releases by specifying their semantic version tags (e.g., `obms-open-business-management-software:v1.8.2`).
+
+---
+
 ## Step-by-Step (Development)
 This will create containers referencing the local version of the application. **Do not use in production**, as it may lead to instability or unintended changes. Always use properly built and tested images for deployment.
 
@@ -95,6 +108,8 @@ Start the docker containers.
 ```bash
 docker-compose -f docker-compose.production.yml up -d
 ```
+
+This will build the containers from the local Dockerfile. However, if you prefer to use the public images instead, you can modify the `docker-compose.production.yml` file to reference the appropriate image tags (e.g., `obms-open-business-management-software/core-app:latest` or a specific version).
 
 ### Generate the Application Key
 Generate an application key.
