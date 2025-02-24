@@ -12,41 +12,41 @@ By participating in this project, you agree to follow our Code of Conduct. Pleas
 
 ## Development Setup
 
-1. Clone the repository:
-```bash
-git clone https://github.com/OBMS-Open-Business-Management-Software/core.git
-```
+1. Clone the repository:  
+    ```bash
+    git clone https://github.com/OBMS-Open-Business-Management-Software/core.git
+    ```
 
-2. Install Dependencies:
-```bash
-composer install
-```
-```bash
-npm install
-```
+2. Install Dependencies:  
+    ```bash
+    composer install
+    ```  
+    ```bash
+    npm install
+    ```
 
-3. Configure Environment:
-```bash
-cp .env.example .env
-```
+3. Configure Environment:  
+    ```bash
+    cp .env.example .env
+    ```
 
-4. Start the Docker containers:
-```bash
-./vendor/bin/sail up -d
-```
+4. Start the Docker containers:  
+    ```bash
+    ./vendor/bin/sail up -d
+    ```
 
-5. Generate required keys:
-```bash
-./vendor/bin/sail artisan key:generate
-```
-```bash
-./vendor/bin/sail artisan passport:keys
-```
+5. Generate required keys:  
+    ```bash
+    ./vendor/bin/sail artisan key:generate
+    ```  
+    ```bash
+    ./vendor/bin/sail artisan passport:keys
+    ```
 
-6. Migrate the database:
-```bash
-./vendor/bin/sail artisan migrate
-```
+6. Migrate the database:  
+    ```bash
+    ./vendor/bin/sail artisan migrate
+    ```
 
 ---
 
@@ -66,10 +66,10 @@ cp .env.example .env
 ### Submitting Pull Requests
 
 1. Fork the repository
-2. Create a new branch from `main`:
-```bash
-git checkout -b feat/your-feature-name
-```
+2. Create a new branch from `main`:  
+    ```bash
+    git checkout -b feat/your-feature-name
+    ```
 3. Make your changes
 4. Write or update tests as needed
 5. Ensure all tests pass
