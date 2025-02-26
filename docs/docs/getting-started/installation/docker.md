@@ -69,7 +69,7 @@ Generate a keypair for Laravel Passport (needed for OAUTH clients to work).
 ### Migrate Database
 Migrate the database schema.
 ```bash
-./vendor/bin/sail artisan migrate
+./vendor/bin/sail artisan migrate --no-interaction --force
 ```
 
 ### Generate OAUTH Clients
@@ -125,7 +125,7 @@ docker-compose -f docker-compose.production.yml exec app php artisan key:generat
 ### Migrate Database
 Migrate the database schema.
 ```bash
-docker-compose -f docker-compose.production.yml exec app php artisan migrate
+docker-compose -f docker-compose.production.yml exec app php artisan migrate --no-interaction --force
 ```
 
 ### Generate OAUTH Clients

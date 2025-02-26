@@ -138,7 +138,7 @@ kubectl exec -it laravel -- php artisan key:generate
 ### Migrate Database
 Migrate the database schema.
 ```bash
-kubectl exec -it laravel -- php artisan migrate
+kubectl exec -it laravel -- php artisan migrate --no-interaction --force
 ```
 
 ### Generate OAUTH Clients

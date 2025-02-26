@@ -45,7 +45,7 @@ By participating in this project, you agree to follow our Code of Conduct. Pleas
 
 6. Migrate the database:  
     ```bash
-    ./vendor/bin/sail artisan migrate
+    ./vendor/bin/sail artisan migrate --no-interaction --force
     ```
 
 ---

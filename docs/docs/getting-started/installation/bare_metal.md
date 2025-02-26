@@ -49,7 +49,7 @@ php artisan passport:keys
 ### Migrate Database
 Migrate the database schema.
 ```bash
-php artisan migrate
+php artisan migrate --no-interaction --force
 ```
 
 ### Generate OAUTH Clients
