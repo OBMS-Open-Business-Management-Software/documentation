@@ -129,6 +129,24 @@ helm install obms renoki-co/laravel-worker -f values-worker.yaml
 
 This will deploy OBMS using the Docker images specified in the `values-*.yaml` file. It will configure the necessary Kubernetes resources like deployments, services, and persistent volumes.
 
+### Generate the Application Key
+Generate an application key.
+```bash
+kubectl exec -it laravel -- php artisan key:generate
+```
+
+### Migrate Database
+Migrate the database schema.
+```bash
+kubectl exec -it laravel -- php artisan migrate
+```
+
+### Generate OAUTH Clients
+Generate set of OAUTH clients needed for API authentication.
+```bash
+kubectl exec -it laravel -- php artisan passport:install --no-interaction
+```
+
 ### Accessing the Application
 Once deployed, you can access the application based on how your Kubernetes cluster is configured. This may include exposing the application via a load balancer or using `kubectl port-forward` for local access. 
 

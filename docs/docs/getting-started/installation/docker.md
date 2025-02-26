@@ -72,6 +72,12 @@ Migrate the database schema.
 ./vendor/bin/sail artisan migrate
 ```
 
+### Generate OAUTH Clients
+Generate set of OAUTH clients needed for API authentication.
+```bash
+./vendor/bin/sail artisan passport:install --no-interaction
+```
+
 ---
 
 ## Step-by-Step (Production)
@@ -120,4 +126,10 @@ docker-compose -f docker-compose.production.yml exec app php artisan key:generat
 Migrate the database schema.
 ```bash
 docker-compose -f docker-compose.production.yml exec app php artisan migrate
+```
+
+### Generate OAUTH Clients
+Generate set of OAUTH clients needed for API authentication.
+```bash
+docker-compose -f docker-compose.production.yml exec app php artisan passport:install --no-interaction
 ```

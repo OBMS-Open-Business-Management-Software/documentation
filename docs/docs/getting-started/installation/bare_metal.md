@@ -52,5 +52,11 @@ Migrate the database schema.
 php artisan migrate
 ```
 
+### Generate OAUTH Clients
+Generate set of OAUTH clients needed for API authentication.
+```bash
+php artisan passport:install --no-interaction
+```
+
 ### Deploy Workers
 Please visit the [Laravel Horizon Documentation](https://laravel.com/docs/11.x/horizon#deploying-horizon) for an extensive guide on how to deploy Laravel Horizon to a server.
