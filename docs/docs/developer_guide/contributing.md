@@ -48,6 +48,11 @@ By participating in this project, you agree to follow our Code of Conduct. Pleas
     ./vendor/bin/sail artisan migrate --no-interaction --force
     ```
 
+7. Generate set of OAUTH clients needed for API authentication:
+    ```bash
+    ./vendor/bin/sail artisan passport:install --no-interaction
+    ```
+
 ---
 
 ## How to Contribute
