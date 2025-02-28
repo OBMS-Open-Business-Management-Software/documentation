@@ -1,1 +1,5 @@
+---
+hide:
+  - toc
+---
 <swagger-ui src="https://api.getobms.com/api-docs-latest.json"/>
