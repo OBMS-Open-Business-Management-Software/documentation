@@ -27,6 +27,7 @@ theme:
 copyright: "© 2025 OBMS (Open Business Management Software). All rights reserved."
 plugins:
   - search
+  - swagger-ui-tag
   - macros:
       macros_file: "mkdocs_macros.py"
 extra:
@@ -77,6 +78,7 @@ nav:
       - Default Login: docs/getting-started/default_login.md
       - Instance Configuration: docs/getting-started/configuration.md
     - Modules: docs/modules.md
+    - Modules: docs/api.md
     - User Guide:
       - Introduction: docs/user_guide/intro.md
     - Admin Guide:

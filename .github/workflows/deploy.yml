@@ -32,6 +32,7 @@ jobs:
           pip install mkdocs
           pip install mkdocs-material
           pip install mkdocs-macros-plugin
+          pip install mkdocs-swagger-ui-tag
 
       - name: Build and Deploy MkDocs
         run: mkdocs gh-deploy --force --remote-name origin

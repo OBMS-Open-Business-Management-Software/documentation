@@ -41,9 +41,9 @@ This documentation is intended for business owners, IT administrators, developer
 
 To start using OBMS, follow these steps:
 
-1. [Installation](getting-started/installation) – Set up OBMS on your preferred infrastructure.
-2. [Configuration](getting-started/installation) – Customize settings to align with your business processes.
-3. [User Management](admin_guide/user_management) – Manage users and roles to ensure controlled access.
+1. [Installation](/docs/getting-started/prerequisites) – Set up OBMS on your preferred infrastructure.
+2. [Configuration](/docs/getting-started/configuration) – Customize settings to align with your business processes.
+3. [User Management](/docs/admin_guide/user_management) – Manage users and roles to ensure controlled access.
 
 For detailed instructions, refer to the respective sections of this documentation.
 
