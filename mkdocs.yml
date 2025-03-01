@@ -90,6 +90,7 @@ nav:
     - Developer Guide:
       - Introduction: docs/developer_guide/intro.md
       - Tooling: docs/developer_guide/tooling.md
+      - ERD: docs/developer_guide/entity-relationship-diagram.md
       - Modules:
         - Core: docs/developer_guide/modules/core.md
         - Products: docs/developer_guide/modules/products.md
