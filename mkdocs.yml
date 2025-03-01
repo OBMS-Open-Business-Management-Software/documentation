@@ -84,13 +84,13 @@ nav:
     - Admin Guide:
       - Introduction: docs/admin_guide/intro.md
       - User Management: docs/admin_guide/user_management.md
-      - REST API: docs/admin_guide/api.md
       - OAUTH Server: docs/admin_guide/oauth.md
       - WebDAV Server: docs/admin_guide/webdav.md
     - Developer Guide:
       - Introduction: docs/developer_guide/intro.md
       - Tooling: docs/developer_guide/tooling.md
-      - ERD: docs/developer_guide/entity-relationship-diagram.md
+      - Entities: docs/developer_guide/entities.md
+      - REST API: docs/developer_guide/api.md
       - Modules:
         - Core: docs/developer_guide/modules/core.md
         - Products: docs/developer_guide/modules/products.md
