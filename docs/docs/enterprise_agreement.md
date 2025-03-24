@@ -14,7 +14,7 @@ Total Finances is defined as the greater value of:
 - The total assets under management by the entity
 
 ### Steps to Obtain an Enterprise License
-- Contact Sales – Reach out to [sales@getobms.com](mailto:sales@getobms.com) for an enterprise license.
+- Contact Sales – Reach out to [hi@obms.one](mailto:hi@obms.one) for an enterprise license.
 - Agreement Review – A tailored agreement will be provided based on the entity's requirements.
 - License Activation – Upon signing, the enterprise license will be activated, granting continued access with additional support benefits.
 
@@ -31,4 +31,4 @@ The pricing model is structured based on Total Finances:
 ## Compliance and Enforcement
 Failure to obtain an enterprise license when exceeding the €5 million Total Finances threshold constitutes a violation of the licensing terms. Regular compliance audits may be conducted to ensure adherence.
 
-For further assistance, contact [support@getobms.com](mailto:support@getobms.com).
+For further assistance, contact [helpdesk@obms.one](mailto:helpdesk@obms.one).

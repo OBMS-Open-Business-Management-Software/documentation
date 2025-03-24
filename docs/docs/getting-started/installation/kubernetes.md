@@ -57,7 +57,7 @@ stringData:
     MAIL_ENCRYPTION=null
     MAIL_FROM_ADDRESS=null
     MAIL_FROM_NAME="${APP_NAME}"
-    MAIL_SUPPORT_ADDRESS=hi@getobms.com
+    MAIL_SUPPORT_ADDRESS=hi@obms.one
     MAIL_SUPPORT_NAME=Test
 
     AWS_ACCESS_KEY_ID=

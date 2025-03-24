@@ -5,7 +5,7 @@ title: Documentation
 # Documentation
 
 ## Introduction
-[OBMS (Open Business Management Software)](https://getobms.com) is a free, open-source business management suite designed to streamline and automate digital business operations. Unlike traditional ERP systems, OBMS is specifically tailored to companies with digital business models, offering a comprehensive set of tools to manage not only core business processes but also digital product creation and administration.
+[OBMS (Open Business Management Software)](https://obms.one) is a free, open-source business management suite designed to streamline and automate digital business operations. Unlike traditional ERP systems, OBMS is specifically tailored to companies with digital business models, offering a comprehensive set of tools to manage not only core business processes but also digital product creation and administration.
 
 With built-in automation capabilities, OBMS reduces manual effort across departments, ensuring efficiency and scalability. It features an integrated customer and admin portal, robust workflow automation, and advanced data management to support businesses in optimizing operations, enhancing customer service, and driving growth. Whether you're handling financials, digital assets, or complex business workflows, OBMS delivers a flexible, open-source ERP solution tailored for modern digital enterprises.
 
@@ -55,6 +55,6 @@ If you need assistance, you can reach out through the following channels:
 
 - [Discord](https://discord.gg/EZPkVqpvy9) – Join our community to interact with other users, get advice, and share your experiences.
 - [GitHub Issues](https://github.com/OBMS-Open-Business-Management-Software/core/issues) – Report bugs or contribute to discussions about features and improvements.
-- [E-Mail Support](mailto:support@getobms.com) – For direct inquiries and support requests.
+- [E-Mail Support](mailto:helpdesk@obms.one) – For direct inquiries and support requests.
 
 Please note that email support is available only to users with an active enterprise agreement. For all other users, support is offered through GitHub Issues and our Discord community.
