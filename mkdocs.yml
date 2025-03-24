@@ -1,5 +1,5 @@
 site_name: OBMS
-site_url: "https://getobms.com"
+site_url: "https://docs.obms.one"
 repo_url: "https://github.com/OBMS-Open-Business-Management-Software/core"
 repo_name: OBMS Core
 theme:
@@ -19,8 +19,6 @@ theme:
     - navigation.indexes
     - navigation.footer
     - navigation.path
-    - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
     - content.code.copy
   experimental: true
@@ -66,9 +64,7 @@ extra_css:
 extra_javascript:
   - js/extra.js
 nav:
-  - Home: index.md
   - Documentation:
-    - About: docs/about.md
     - Getting Started:
       - Prerequisites: docs/getting-started/prerequisites.md
       - Installation:
@@ -99,6 +95,6 @@ nav:
     - Licensing:
       - Software License: docs/license.md
       - Enterprise Agreement: docs/enterprise_agreement.md
-  - Download: https://github.com/OBMS-Open-Business-Management-Software/core/releases
+  - Download: https://github.com/OBMS-Open-Business-Management-Software/core/releases/latest
   - Changelog: docs/changelog.md
 
