@@ -18,36 +18,36 @@ Before installing a module, ensure that:
 Following these steps ensures a smooth installation and management process for OBMS modules. For more details, refer to the module’s official documentation.
 
 1. **Find the Module**  
-   Identify the module you want to install from the official OBMS repositories or Packagist. Each module has a unique package name that can be used for installation.
+    Identify the module you want to install from the official OBMS repositories or Packagist. Each module has a unique package name that can be used for installation.
 
 2. **Install via Composer**  
-   Run the following command to install a module using Composer:
-   ```
-   composer require obms/<module-name>
-   ```
+    Run the following command to install a module using Composer:
+    ```
+    composer require obms/<module-name>
+    ```
 
-   For example, to install the PayPal Payment Gateway module, use:
-   ```
-   composer require obms/paymentgateway-paypal
-   ```
+    For example, to install the PayPal Payment Gateway module, use:
+    ```
+    composer require obms/paymentgateway-paypal
+    ```
 
 3. **Run Migrations (if required)**  
-   Some modules may require database migrations. If specified in the module’s documentation, run:
-   ```
-   php artisan migrate
-   ```
+    Some modules may require database migrations. If specified in the module’s documentation, run:
+    ```
+    php artisan migrate
+    ```
 
 4. **Enable the Module**  
-   Depending on the module type, it may need to be activated within the OBMS admin panel or via the command line. Check the module documentation for specific activation instructions.
+    Depending on the module type, it may need to be activated within the OBMS admin panel or via the command line. Check the module documentation for specific activation instructions.
 
 5. **Clear Cache**  
-   After installation, clear your application cache to ensure the module loads correctly:
-   ```
-   php artisan config:clear
-   ```
-   ```
-   php artisan cache:clear
-   ```
+    After installation, clear your application cache to ensure the module loads correctly:
+    ```
+    php artisan config:clear
+    ```
+    ```
+    php artisan cache:clear
+    ```
 
 ### Updating Modules
 To update an installed module to the latest version, run:
