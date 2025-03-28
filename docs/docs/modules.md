@@ -85,4 +85,4 @@ The Module SDK offers a comprehensive set of tools and documentation for develop
 ### Composer Installer
 To manage module installations efficiently, OBMS utilizes a custom Composer Installer. This tool automates the installation and updating of modules, ensuring they are correctly integrated into the OBMS environment. The Composer Installer's source code and usage instructions are available on [GitHub](https://github.com/OBMS-Open-Business-Management-Software/composer-installer).
 
-For more detailed information on module development and integration, developers are encouraged to consult the [OBMS Developer Documentation](/docs/developer_guide/intro).
+For more detailed information on module development and integration, developers are encouraged to consult the [OBMS Developer Documentation](/developer_guide/intro).
