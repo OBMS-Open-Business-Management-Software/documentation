@@ -21,18 +21,18 @@ Following these steps ensures a smooth installation and management process for O
     Identify the module you want to install from the official OBMS repositories or Packagist. Each module has a unique package name that can be used for installation.
 
 2. **Install via Composer**  
-    Run the following command to install a module using Composer:
+    Run the following command to install a module using Composer:  
     ```
     composer require obms/<module-name>
     ```
 
-    For example, to install the PayPal Payment Gateway module, use:
+    For example, to install the PayPal Payment Gateway module, use:  
     ```
     composer require obms/paymentgateway-paypal
     ```
 
 3. **Run Migrations (if required)**  
-    Some modules may require database migrations. If specified in the module’s documentation, run:
+    Some modules may require database migrations. If specified in the module’s documentation, run:  
     ```
     php artisan migrate
     ```
@@ -41,7 +41,7 @@ Following these steps ensures a smooth installation and management process for O
     Depending on the module type, it may need to be activated within the OBMS admin panel or via the command line. Check the module documentation for specific activation instructions.
 
 5. **Clear Cache**  
-    After installation, clear your application cache to ensure the module loads correctly:
+    After installation, clear your application cache to ensure the module loads correctly:  
     ```
     php artisan config:clear
     ```
