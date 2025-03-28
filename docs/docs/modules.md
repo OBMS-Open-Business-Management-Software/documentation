@@ -44,7 +44,7 @@ Following these steps ensures a smooth installation and management process for O
     After installation, clear your application cache to ensure the module loads correctly:  
     ```
     php artisan config:clear
-    ```
+    ```  
     ```
     php artisan cache:clear
     ```
